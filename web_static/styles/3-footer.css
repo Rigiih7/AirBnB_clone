@@ -4,10 +4,14 @@ p {
 }
 
 footer {
-    color: #FFFFFF;
-    height: 70px;
+    background-color: white;
+	height: 60px;
+	bottom:0;
+    position: absolute;
     width: 100%;
-    left: 0;
-    bottom: 0;
-    border-top: 1px solid #CCCCCC
+	display: flex;
+	justify-content: center;
+	align-items: center;
+    border-top: 1px solid #CCCCCC;
+    box-sizing: border-box;
 }
